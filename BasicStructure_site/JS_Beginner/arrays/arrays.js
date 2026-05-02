@@ -44,3 +44,19 @@ var mbti = ['ENFP', 'INFP', 'INFJ', 'INTJ'];
 // mbti.shift();
 // console.log(mbti);
 // console.log(mbti.length);
+
+// slice 메서드 : 배열의 일부분을 추출하여 반환
+// console.log(mbti.slice(0, 2));
+// console.log(mbti.slice()); // 전체를 반환 
+// console.log(mbti.slice(-2)); // 뒤에서부터 2개 반환
+
+// join 메서드 : 배열의 모든 요소를 문자열로 결합하여 반환
+// console.log(mbti.join()); // 기본적으로 쉼표로 구분하여 반환
+// console.log(mbti.join(' ')); // 공백으로 구분하여 반환
+// console.log(mbti.join('-')); // 하이픈으로 구분하여 반환    
+
+// sort 메서드 : 배열의 요소를 정렬하여 반환
+console.log(mbti.sort()); // 사전순으로 정렬 
+
+// reverse 메서드 : 배열의 요소를 역순으로 정렬하여 반환
+console.log(mbti.reverse());
