@@ -32,5 +32,3 @@ switch (mbti) {
     default:
         val = "유효한 값이 아님";
 }
-
-// 2. 반복문 
